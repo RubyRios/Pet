@@ -1,0 +1,32 @@
+{
+    "name": "petricity",
+    "version": "0.0.1",
+    "description": "A website where users can program their petricity pets",
+
+    "keywords": [
+        "pets",
+        "teaching"
+    ],
+
+    "homepage": "http://www.petricity.com/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RubyRios/Pet.git"
+    },
+
+    "engines": {
+        "npm": "*",
+        "node": "*"
+    },
+
+    "dependencies": {
+        "jade": "*",
+        "colors": "*",
+        "express": "*",
+        "requirejs": "*",
+        "socket.io": "*"
+    },
+
+    "private": true,
+    "main": "app.js"
+}
